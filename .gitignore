@@ -1,0 +1,68 @@
+# ==========================================
+# Environments & Packages
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Python Caches & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# Jupyter Notebook Caches
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# ML Checkpoints, Weights & Outputs
+# ==========================================
+sft-checkpoints/
+lora-checkpoints/
+checkpoints/
+wandb/
+runs/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# ==========================================
+# Datasets & Submissions (Optional - keep git clean)
+# ==========================================
+*.csv
+dataset-metadata.json
+
+# ==========================================
+# OS & Editor Specific Files
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
